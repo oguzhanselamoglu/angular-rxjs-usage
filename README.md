@@ -29,13 +29,13 @@ Başlıca RxJs operatorleri aşağıdaki gibi,
 ## of
 Of operator vereceğimiz herhangi bir dizi, değer, fonksiyon veya  strig değeri Observable hale dönüştürür
 daha sonrasında subscribe olunabilir.
-
+ ```
 import { of } from "rxjs";
 const values = of("oguzhan", 2, ['a', 'b']);
 values.subscribe(data => {
       console.log(data);
 });
-
+ ```
 ## Pipe
 
 Observable veri kaynağında gelen veri üzerinde belirli işlemleri yapabilmemizi sağlayan bir boru hattı. subcribe olunmadan önce gelen veri üzerinde oynayabiliriz belirli işlemler yapabiliriz.
